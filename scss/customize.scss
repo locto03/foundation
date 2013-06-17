@@ -1,0 +1,200 @@
+section#header {
+	position: fixed;
+	width: 250px;
+	height: 100%;
+	background: #fff;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+	z-index: 100 !important;
+	
+	.inside {
+		padding: 40px 35px 20px 40px;
+	}
+}
+.page-template-page-portfolio-php #main, .tax-skill #main {
+	padding-top: 0;
+}
+.page-template-page-portfolio-php #content, .tax-skill #content {
+	max-width: 100%;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+section#main {
+	margin: 0px 0px 0px 250px; 
+	padding: 40px 0 0 0;
+	width: auto;
+}
+.p {
+	line-height: 1.7em;
+	font-size: .75em;
+	margin: 0 0 20px 0;
+}
+#content {
+	padding: 0 0 1px 0 !important;
+	float: none;
+	max-width: 850px;
+	
+	.inside {
+		margin: 0 30px 0 30px;
+		padding: 30px 0 20px;
+	}
+}
+
+.post.box, .page.box, .project.box {
+	margin: 0 40px 40px 40px !important;
+	background: #fff;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+}
+
+.page #pageHead, .project #pageHead, .tax-skill #pageHead {
+	margin: 0 !important;
+}
+
+#pageHead {
+	padding: 30px 30px 0 30px;
+	margin: 0 40px 0 40px !important;
+	background: #fff;
+	border-bottom: 1px solid #ebebeb;
+	padding-bottom: 25px;
+	
+	h1  {
+		font-size: 1.1em;
+		line-height: .7em;
+		padding: 0;
+		margin-bottom: 0;
+		display: block;
+	}
+}
+
+#logo {
+	padding: 0;
+	margin-bottom: 20px;
+	
+	h1 {
+		line-height: 1em !important;
+		padding: 0 !important;
+		font-size: 1.8em;
+		font-weight: bold;
+		color: #6e6e6e;
+	}
+}
+
+body {
+	font-size: 100%;
+	font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: auto;
+	height: auto;
+	padding: 0 0 0 0;
+	margin: 0;
+	color: #7d7d7b;
+	background-color: #e0e0e0;
+}
+body.custom-background {
+	    background-attachment: fixed;
+    background-image: url("http://themetrust.com/demos/ink/wp-content/uploads/tiny_grid.png");
+    background-position: left top;
+    background-repeat: repeat;
+}
+
+/*Top level navigation*/
+#mainNav {
+	position:relative;		
+	font-family: Helvetica, arial, sans-serif;	
+	display: block;
+	
+	li {
+		float: left;
+	}
+	ul {
+		a {
+			display: block;
+			padding: 0px 0;
+			width: 100%;
+			line-height: 25px;	
+			color: #9f9f9f;
+			font-size: .75em;	
+			font-weight: bold;
+		}
+		ul a {
+			line-height: 15px;
+			font-weight: normal;
+			border-top: none;
+		}
+		li.current a, li.current-cat a, li.current_page_item a, li.current-menu-item a,
+		li.current-post-ancestor a, li.current-category-parent a, li.current-page-ancestor a,
+		li.current-category-ancestor a, li.current-portfolio-ancestor a, li.current-projects-ancestor a
+		{
+			text-decoration: none;
+			color: #6e6e6e;	
+		}
+		li.sfHover a, li a:hover, li:hover {
+			text-decoration: none;
+			color: #6e6e6e;	
+		}
+		ul {
+			padding: 15px 0 5px 15px!important;
+			margin-top: -44px;
+			margin-left: 145px;
+			background: #fff;
+			border: 1px solid #dedede;
+			-moz-box-shadow: 0 0px 6px rgba(0,0,0,0.1);
+			-webkit-box-shadow: 0 0px 6px rgba(0,0,0,0.1);
+			box-shadow: 0 0px 6px rgba(0,0,0,0.1);	
+			li {
+				margin: 0 0 12px 0 !important;
+			}
+		}
+	}
+}
+
+/*Projects------------------*/
+#projects {
+	margin: 0 0 0 0;
+	width: 100%;
+	padding: 0;
+	float: left;
+	display: block;
+	position: relative;
+	.thumbs {
+		margin: 0 auto;			
+	}
+}
+
+/*Filter*/
+#content {
+	#filterNav{
+		margin: 0!important;
+		padding: 15px 15px 10px 15px !important;
+		background: #cdb980;
+		li	{
+			padding: 0px 0 0 0;
+			background: none;
+			margin: 0 5px 5px 0;	
+			display: block;
+			float: left;
+			font-size: 1em;
+			a {
+				font-size: .8125em;		
+				display: inline-block;	
+				color: #ffffff!important;
+				text-decoration: none;
+				position: relative;
+				cursor: pointer;	
+				padding: 6px 10px !important;	
+				border: none;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border-radius: 4px;
+				line-height: 1em;
+			}
+		}
+	}
+}

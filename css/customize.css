@@ -1,0 +1,197 @@
+/* line 1, customize.scss */
+section#header {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  z-index: 100 !important; }
+  /* line 11, customize.scss */
+  section#header .inside {
+    padding: 40px 35px 20px 40px; }
+
+/* line 15, customize.scss */
+.page-template-page-portfolio-php #main, .tax-skill #main {
+  padding-top: 0; }
+
+/* line 18, customize.scss */
+.page-template-page-portfolio-php #content, .tax-skill #content {
+  max-width: 100%; }
+
+/* line 21, customize.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  display: block; }
+
+/* line 28, customize.scss */
+section#main {
+  margin: 0px 0px 0px 250px;
+  padding: 40px 0 0 0;
+  width: auto; }
+
+/* line 33, customize.scss */
+.p {
+  line-height: 1.7em;
+  font-size: .75em;
+  margin: 0 0 20px 0; }
+
+/* line 38, customize.scss */
+#content {
+  padding: 0 0 1px 0 !important;
+  float: none;
+  max-width: 850px; }
+  /* line 43, customize.scss */
+  #content .inside {
+    margin: 0 30px 0 30px;
+    padding: 30px 0 20px; }
+
+/* line 49, customize.scss */
+.post.box, .page.box, .project.box {
+  margin: 0 40px 40px 40px !important;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
+
+/* line 57, customize.scss */
+.page #pageHead, .project #pageHead, .tax-skill #pageHead {
+  margin: 0 !important; }
+
+/* line 61, customize.scss */
+#pageHead {
+  padding: 30px 30px 0 30px;
+  margin: 0 40px 0 40px !important;
+  background: #fff;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 25px; }
+  /* line 68, customize.scss */
+  #pageHead h1 {
+    font-size: 1.1em;
+    line-height: .7em;
+    padding: 0;
+    margin-bottom: 0;
+    display: block; }
+
+/* line 77, customize.scss */
+#logo {
+  padding: 0;
+  margin-bottom: 20px; }
+  /* line 81, customize.scss */
+  #logo h1 {
+    line-height: 1em !important;
+    padding: 0 !important;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #6e6e6e; }
+
+/* line 90, customize.scss */
+body {
+  font-size: 100%;
+  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: auto;
+  height: auto;
+  padding: 0 0 0 0;
+  margin: 0;
+  color: #7d7d7b;
+  background-color: #e0e0e0; }
+
+/* line 100, customize.scss */
+body.custom-background {
+  background-attachment: fixed;
+  background-image: url("http://themetrust.com/demos/ink/wp-content/uploads/tiny_grid.png");
+  background-position: left top;
+  background-repeat: repeat; }
+
+/*Top level navigation*/
+/* line 108, customize.scss */
+#mainNav {
+  position: relative;
+  font-family: Helvetica, arial, sans-serif;
+  display: block; }
+  /* line 113, customize.scss */
+  #mainNav li {
+    float: left; }
+  /* line 117, customize.scss */
+  #mainNav ul a {
+    display: block;
+    padding: 0px 0;
+    width: 100%;
+    line-height: 25px;
+    color: #9f9f9f;
+    font-size: .75em;
+    font-weight: bold; }
+  /* line 126, customize.scss */
+  #mainNav ul ul a {
+    line-height: 15px;
+    font-weight: normal;
+    border-top: none; }
+  /* line 134, customize.scss */
+  #mainNav ul li.current a, #mainNav ul li.current-cat a, #mainNav ul li.current_page_item a, #mainNav ul li.current-menu-item a,
+  #mainNav ul li.current-post-ancestor a, #mainNav ul li.current-category-parent a, #mainNav ul li.current-page-ancestor a,
+  #mainNav ul li.current-category-ancestor a, #mainNav ul li.current-portfolio-ancestor a, #mainNav ul li.current-projects-ancestor a {
+    text-decoration: none;
+    color: #6e6e6e; }
+  /* line 138, customize.scss */
+  #mainNav ul li.sfHover a, #mainNav ul li a:hover, #mainNav ul li:hover {
+    text-decoration: none;
+    color: #6e6e6e; }
+  /* line 142, customize.scss */
+  #mainNav ul ul {
+    padding: 15px 0 5px 15px !important;
+    margin-top: -44px;
+    margin-left: 145px;
+    background: #fff;
+    border: 1px solid #dedede;
+    -moz-box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1); }
+    /* line 151, customize.scss */
+    #mainNav ul ul li {
+      margin: 0 0 12px 0 !important; }
+
+/*Projects------------------*/
+/* line 159, customize.scss */
+#projects {
+  margin: 0 0 0 0;
+  width: 100%;
+  padding: 0;
+  float: left;
+  display: block;
+  position: relative; }
+  /* line 166, customize.scss */
+  #projects .thumbs {
+    margin: 0 auto; }
+
+/*Filter*/
+/* line 173, customize.scss */
+#content #filterNav {
+  margin: 0 !important;
+  padding: 15px 15px 10px 15px !important;
+  background: #cdb980; }
+  /* line 177, customize.scss */
+  #content #filterNav li {
+    padding: 0px 0 0 0;
+    background: none;
+    margin: 0 5px 5px 0;
+    display: block;
+    float: left;
+    font-size: 1em; }
+    /* line 184, customize.scss */
+    #content #filterNav li a {
+      font-size: .8125em;
+      display: inline-block;
+      color: white !important;
+      text-decoration: none;
+      position: relative;
+      cursor: pointer;
+      padding: 6px 10px !important;
+      border: none;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      line-height: 1em; }
